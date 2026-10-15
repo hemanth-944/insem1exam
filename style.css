@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: lightblue;
+}
+
+.container {
+    background: white;
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    color: purple;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.tabs {
+    margin: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    color: red;
+}
+
+header {
+    background: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome {
+    background: skyblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+}
+
+.departments {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card h3 {
+    color: purple;
+}
+
+.details {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
